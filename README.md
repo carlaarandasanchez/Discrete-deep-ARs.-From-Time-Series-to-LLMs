@@ -60,4 +60,25 @@ The experiments demonstrate that framing continuous time series as discrete next
 
 The pipeline processes the `ETTh1.csv` benchmark dataset containing electricity transformer operational metrics.
 
-**Option A — Local Dataset Path (recommended):** Place the downloaded `ETTh1.csv` file directly inside the `data/` directory relative to the repository root:
+**Option A — Local Dataset Path (recommended):** Place the downloaded `ETTh1.csv` file directly inside the `data/` directory relative to the repository root.
+**Option B — Automated Download via Script:** If the local dataset is not found, the notebook includes fallback utilities to fetch `ETTh1.csv` directly from public benchmark mirrors or generate a synthetic benchmark series automatically.
+
+See the notebook for the full dataset setup cell.
+
+---
+
+## Requirements
+
+- Python 3.x
+- PyTorch + torchvision
+- Google Colab (recommended for GPU access and Drive integration)
+- NumPy, Pandas, Matplotlib
+
+---
+
+## Authors
+
+- Carla Aranda Sánchez 
+- Jorge Barcia Belinchón
+- Marina Juzgado Gómez-Menor
+- Iván López Anca 
